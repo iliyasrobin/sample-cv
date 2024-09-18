@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      header {
+        background-color: lightgrey;
+        color: black;
+        padding: 20px;
+        text-align: center;
+      }
+      .main-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .main-content .left-col,
+      .main-content .right-col {
+        width: 48%;
+        margin-bottom: 20px;
+      }
+
+      .main-content .left-col h2,
+      .main-content .right-col h2 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="profile.jpg"
+        alt="profile"
+        height="250px"
+        style="border-radius: 50%"
+      />
+      <h1>ILIYAS AHMED</h1>
+      <p>BSc. in Computer Science & Engineering</p>
+      <p>Independent University, Bangladesh</p>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <br />
+    <br />
+
+    <section id="about" class="main-content">
+      <div class="left-col">
+        <h2 style="color: green">Career Objectives</h2>
+        <p>
+          Passionate and dedicated individual with a keen interest in web design
+          and related technologies, eager to apply knowledge and skills acquired
+          through academic studies and personal projects to excel in a
+          challenging role within the field of web development. Striving to
+          leverage proficiency in programming languages, design principles, and
+          emerging web technologies to contribute effectively to innovative
+          projects, foster user engagement, and drive business growth. Seeking
+          an opportunity to further develop expertise, collaborate with industry
+          professionals, and contribute meaningfully to the success of a dynamic
+          web development team.
+        </p>
+      </div>
+      <div class="right-col">
+        <h2 style="color: red">Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>PHP</li>
+          <li>MySQL</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education" class="main-content">
+      <div class="left-col">
+        <h2 style="color: red">Personal Information</h2>
+        <p>Name: Iliyas Ahmed</p>
+        <p>Father's Name: Younus Ali</p>
+        <p>Mother's Name: Alena Begum</p>
+        <p>Present Address: Nikunja-2, Khilkhet, Dhaka</p>
+        <p>Permanent Address: Nikunja-2, Khilkhet, Dhaka</p>
+        <p>Date of Birth: 15 July 2001</p>
+        <p>Religion: Islam</p>
+        <p>Nationality: Bangladeshi</p>
+      </div>
+
+      <div class="right-col">
+        <h2 style="color: green">Education</h2>
+        <ul>
+          <li><strong>BSc. in Computer Science & Engineering</strong></li>
+          <p>Independent University, Bangladesh</p>
+          <li><strong>BAF Shaheen College Kurmitola</strong></li>
+          <p>Higher Secondary School Certificate</p>
+          <li>
+            <strong>Rajendrapur Cantonment Public School & College</strong>
+          </li>
+          <p>Secondary School Certificate</p>
+        </ul>
+      </div>
+    </section>
+
+    <br />
+
+    <section id="experience" class="main-content">
+      <div class="left-col">
+        <h2 style="color: green">Job Experience</h2>
+        <ul>
+          <li>
+            <strong>Web Developer Company</strong>
+            <p>XYZ Tech Solutions, Dhaka, Bangladesh</p>
+            <p>Duration: June 2022 - Present</p>
+          </li>
+          <li>
+            <strong>Frontend Developer Intern</strong>
+            <p>ABC Digital Agency, Chittagong, Bangladesh</p>
+            <p>Duration: January 2021 - May 2021</p>
+          </li>
+          <li>
+            <strong>Freelance Web Designer</strong>
+            <p>Duration: June 2020 - December 2020</p>
+          </li>
+        </ul>
+      </div>
+      <div class="right-col">
+        <h2 style="color: red">Academic Projects</h2>
+        <ul type="square">
+          <li>IoT Drone Based Air Quality Monitoring System</li>
+          <br />
+          <li>Pick and Place Robot</li>
+          <br />
+          <li>Line Following Robot</li>
+          <br />
+          <li>Maze Solver</li>
+          <br />
+          <li>Remote Control Car</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="main-content">
+      <div class="left-col">
+        <h2 style="color: red">Research</h2>
+        <ul>
+          <li>IoT Drone Based Air Quality Monitoring System</li>
+          <br />
+          <li>Pick and Place Robot</li>
+          <br />
+          <li>Line Following Robot</li>
+          <br />
+          <li>Maze Solver</li>
+          <br />
+          <li>Remote Control Car</li>
+        </ul>
+      </div>
+      <div class="right-col">
+        <h2 style="color: green">Extra Curricular Activities</h2>
+        <ul>
+          <li>
+            <strong>Volunteer Web Developer</strong>
+            <p>Tech for Social Good, Dhaka, Bangladesh</p>
+            <p>Duration: September 2022 - Present</p>
+          </li>
+          <li>
+            <strong>Hackathon Participant</strong>
+            <p>National Coding Challenge, Bangladesh 2021</p>
+            <p>Duration: March 2021</p>
+          </li>
+          <li>
+            <strong>Tech Blogger</strong>
+            <p>Duration: January 2020 - Present</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="main-content">
+      <div class="left-col">
+        <h2 style="color: green">Contact</h2>
+        <p>Email: iliyasahmedr@gmail.com</p>
+        <p>Phone: +8801823807176</p>
+      </div>
+
+      <div class="right-col">
+        <h2 style="color: red">Social Media</h2>
+        <ul>
+          <li><a href="https://github.com/iliyasahmedr">GitHub</a></li>
+          <li><a href="https://linkedin.com/in/iliyasrobin">LinkedIn</a></li>
+          <li><a href="https://instagram.com/in/iliyas.robin">Instagram</a></li>
+          <li><a href="https://x.com/in/iliyasrobin">X</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <br /><br />
+
+    <footer id="footer">
+      <p>&copy; 2024 ILIYAS AHMED</p>
+      <p>All rights reserved.</p>
+    </footer>
+  </body>
+</html>
